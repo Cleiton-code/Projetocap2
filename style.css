@@ -4,7 +4,6 @@ body{
     font-size: 0.8rem;
 }
 .container{
-    margin:auto;
     width: 550px;
     display: flex;
     flex-direction: column;
@@ -116,9 +115,13 @@ button:hover{
 }
 
 @media screen and (max-width: 620px) {
+    .container{
+        width: 95%;
+    }
     .assets{
         display: flex;
         flex-direction: column;
+
     }
 
     html{
